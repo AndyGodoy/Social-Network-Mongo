@@ -25,6 +25,7 @@ const ThoughtController = {
             res.status(500).json(err);
         }
     },
+    
     // Handler for the "create thought" API endpoint
     async createThought(req, res) {
         try {
